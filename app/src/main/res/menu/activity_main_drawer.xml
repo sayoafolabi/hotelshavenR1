@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/home_blue"
+            android:checked="true"
+            android:title="Home" />
+        <item android:id="@+id/offers"
+            android:icon="@drawable/lowprice48"
+            android:title="Offers" />
+        <item android:id="@+id/blog"
+            android:icon="@drawable/blogger"
+            android:title="Blog" />
+        <item android:id="@+id/term"
+            android:icon="@drawable/term48"
+            android:title="Terms" />
+        <item
+            android:id="@+id/cookie"
+            android:icon="@drawable/cookies48"
+            android:title="Cookie policy" />
+        <item android:id="@+id/privacy"
+            android:icon="@drawable/privacy48"
+            android:title="Privacy policy" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/about48"
+            android:title="About us"/>
+
+    </group>
+
+    <item android:title="Join us on Social Media">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/facebook"
+                    android:title="Facebook" />
+                <item
+                    android:icon="@drawable/twitter"
+                    android:title="Twitter" />
+                <item
+                    android:icon="@drawable/instagram"
+                    android:title="Instagram" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
